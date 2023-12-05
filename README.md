@@ -1,6 +1,6 @@
-## LeetCode Exercise Solutions and Explanations in Python ##
+## LeetCode Exercise Solutions in Python and Explanations ##
 
-This repository contains my solutions and explanations to the [LeetCode exercises](https://leetcode.com/) I've solved in Python.
+This repository contains my solutions to the [LeetCode](https://leetcode.com/) exercises I've solved in Python and their explanations.
 
 I am starting at the very beginning of the easy exercises and working my way up to the hard exercises. I will be adding solutions and explanations as I solve the exercises.
 
