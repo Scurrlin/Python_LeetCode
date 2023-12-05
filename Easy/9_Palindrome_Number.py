@@ -15,4 +15,8 @@ sol = Solution()
 print(sol.isPalindrome(121))  # Output: True
 print(sol.isPalindrome(-121))  # Output: False
 
-# This method works by first checking if `x` is less than 0. If it is, it returns `False` because negative numbers cannot be palindromes. It then converts `x` to a string and compares the string with its reverse. If they are the same, it returns `True`. Otherwise, it returns `False`.
+# This method works by first checking if `x` is less than 0.
+# If it is, it returns `False` because negative numbers cannot be palindromes.
+# It then converts `x` to a string and compares the string with its reverse.
+# If they are the same, it returns `True`.
+# Otherwise, it returns `False`.

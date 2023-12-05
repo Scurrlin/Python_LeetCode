@@ -17,4 +17,6 @@ class Solution:
 sol = Solution()
 print(sol.findWordsContaining(["apple", "banana", "cherry", "date"], 'a'))  # Output: [0, 1, 2]
 
-# This method works by iterating over the `words` array and checking if the character `x` is in each word. If it is, it appends the index of the word to the `indices` list. Finally, it returns the `indices` list.
+# This method works by iterating over the `words` array and checking if the character `x` is in each word.
+# If it is, it appends the index of the word to the `indices` list.
+# Finally, it returns the `indices` list.

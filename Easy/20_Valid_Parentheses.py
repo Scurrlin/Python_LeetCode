@@ -25,4 +25,10 @@ sol = Solution()
 print(sol.isValid("()[]{}"))  # Output: True
 print(sol.isValid("(]"))  # Output: False
 
-# This method works by using a stack to keep track of the open brackets. For each character in the string, if it's an open bracket, it pushes it onto the stack. If it's a close bracket, it checks if the stack is empty or if the top element of the stack doesn't match with the close bracket. If either condition is met, it returns `False`. After the iteration, it checks if the stack is empty. If it's not, it returns `False`. If none of the above conditions are met, it returns `True`.
+# This method works by using a stack to keep track of the open brackets.
+#  For each character in the string, if it's an open bracket, it pushes it onto the stack.
+# If it's a close bracket, it checks if the stack is empty or if the top element of the stack doesn't match with the close bracket.
+# If either condition is met, it returns `False`.
+# After the iteration, it checks if the stack is empty.
+# If it's not, it returns `False`.
+# If none of the above conditions are met, it returns `True`.

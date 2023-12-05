@@ -21,4 +21,6 @@ def roman_to_int(s):
 
 print(roman_to_int('MCMXCIV'))  # Output: 1994
 
-# This function works by iterating over the Roman numeral string from right to left and adding or subtracting the integer value of the current Roman numeral depending on whether it is greater or less than the previous Roman numeral.
+# This function works by iterating over the Roman numeral string from right to left.
+# It then adds or subtracts the integer value of the current Roman numeral.
+# This acition is dependent on whether it is greater or less than the previous Roman numeral.

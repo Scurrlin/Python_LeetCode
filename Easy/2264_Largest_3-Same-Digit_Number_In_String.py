@@ -19,4 +19,7 @@ class Solution:
 sol = Solution()
 print(sol.largestGoodInteger("1234567890"))  # Output: "999"
 
-# This method works by iterating over the digits from 9 to 0 and checking if a string of length 3 with the current digit is a substring of `num`. If it is, it updates `max_good_integer` with this string and breaks the loop. Finally, it returns `max_good_integer`. If no good integer is found, it returns an empty string.
+# This method works by iterating over the digits from 9 to 0 and checking if a string of length 3 with the current digit is a substring of `num`.
+# If it is, it updates `max_good_integer` with this string and breaks the loop.
+# Finally, it returns `max_good_integer`.
+# If no good integer is found, it returns an empty string.

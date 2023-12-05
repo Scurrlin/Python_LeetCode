@@ -29,4 +29,10 @@ class Solution:
         current.next = l1 if l1 else l2
         return temp.next
 
-# This method works by creating a dummy node and a current node pointing to the dummy node. It then enters a loop where it compares the values of `l1` and `l2`. If the value of `l1` is less than or equal to the value of `l2`, it moves the next pointer of the current node to `l1` and moves `l1` to its next node. Otherwise, it moves the next pointer of the current node to `l2` and moves `l2` to its next node. It then moves the current node to its next node. After the loop, if `l1` or `l2` is not `None`, it moves the next pointer of the current node to `l1` or `l2`. Finally, it returns the next node of the dummy node, which is the head of the merged linked list.
+# This method works by creating a dummy node and a current node pointing to the temp node.
+# It then enters a loop where it compares the values of `l1` and `l2`.
+# If the value of `l1` is less than or equal to the value of `l2`, it moves the next pointer of the current node to `l1` and moves `l1` to its next node.
+# Otherwise, it moves the next pointer of the current node to `l2` and moves `l2` to its next node.
+# It then moves the current node to its next node.
+# After the loop, if `l1` or `l2` is not `None`, it moves the next pointer of the current node to `l1` or `l2`.
+# Finally, it returns the next node of the temp node, which is the head of the merged linked list.

@@ -20,4 +20,8 @@ sol = Solution()
 print(sol.longestCommonPrefix(["flower","flow","flight"]))  # Output: "fl"
 print(sol.longestCommonPrefix(["dog","racecar","car"]))  # Output: ""
 
-# This method works by initializing the common prefix as the first string in the array and then iterating over the rest of the strings. For each string, it checks if the string starts with the common prefix. If it doesn't, it removes the last character from the common prefix. Finally, it returns the common prefix. If there is no common prefix, it returns an empty string.
+# This method works by initializing the common prefix as the first string in the array and then iterating over the rest of the strings.
+# For each string, it checks if the string starts with the common prefix.
+# If it doesn't, it removes the last character from the common prefix.
+# Finally, it returns the common prefix.
+# If there is no common prefix, it returns an empty string.

@@ -22,4 +22,8 @@ sol = Solution()
 print(sol.numberOfMatches(7))  # Output: 6
 print(sol.numberOfMatches(14))  # Output: 13
 
-# This method works by using a while loop to simulate the tournament. If the number of teams is even, it adds `n/2` to `matches` and updates `n` to `n/2`. If the number of teams is odd, it adds `(n-1)/2` to `matches` and updates `n` to `(n-1)/2 + 1`. It continues this process until there's only one team left, which is the winner. Finally, it returns the total number of matches played.
+# This method works by using a while loop to simulate the tournament.
+# If the number of teams is even, it adds `n/2` to `matches` and updates `n` to `n/2`.
+# If the number of teams is odd, it adds `(n-1)/2` to `matches` and updates `n` to `(n-1)/2 + 1`.
+# It continues this process until there's only one team left, which is the winner.
+# Finally, it returns the total number of matches played.
